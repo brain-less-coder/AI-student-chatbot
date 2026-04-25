@@ -1,0 +1,207 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "hey there",
+        "hi bot",
+        "what's up",
+        "how are you",
+        "hello chatbot"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hey there!",
+        "Hi! Ask me anything."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk later",
+        "bye bye",
+        "catch you later",
+        "see you",
+        "i am leaving",
+        "quit",
+        "exit"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "appreciate it",
+        "thank you so much",
+        "thanks for helping",
+        "great thanks",
+        "cool thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+
+    {
+      "tag": "python_help",
+      "patterns": [
+        "how do i learn python",
+        "python roadmap",
+        "help me with python",
+        "how to improve python",
+        "how to start python",
+        "best way to learn python",
+        "python learning path",
+        "python beginner roadmap",
+        "how to become good at python",
+        "python practice tips"
+      ],
+      "responses": [
+        "Start with Python basics, then practice projects and DSA problems.",
+        "Learn Python fundamentals, then move into libraries like NumPy and Flask."
+      ]
+    },
+
+    {
+      "tag": "ml_help",
+      "patterns": [
+        "how to learn machine learning",
+        "machine learning roadmap",
+        "what is machine learning",
+        "how to become ml engineer",
+        "how can i become machine learning engineer",
+        "ml roadmap",
+        "learn ai",
+        "machine learning career path",
+        "how to start ai",
+        "how to start machine learning"
+      ],
+      "responses": [
+        "Start with Python, NumPy, Pandas, ML algorithms, then deep learning.",
+        "Build projects after learning supervised learning basics."
+      ]
+    },
+
+    {
+      "tag": "project_ideas",
+      "patterns": [
+        "give me project ideas",
+        "machine learning projects",
+        "python projects",
+        "final year project ideas",
+        "good coding projects",
+        "ai projects",
+        "college project ideas",
+        "best ml projects",
+        "project recommendations",
+        "what projects should i build"
+      ],
+      "responses": [
+        "You can build a chatbot, recommendation system, face recognition system, or stock predictor.",
+        "Try building projects that solve real problems."
+      ]
+    },
+
+    {
+      "tag": "internship",
+      "patterns": [
+        "how to get internship",
+        "internship tips",
+        "how to get job",
+        "how to crack internships",
+        "software internship tips",
+        "internship roadmap",
+        "resume for internship",
+        "how can i get internship",
+        "internship preparation",
+        "placement internship tips"
+      ],
+      "responses": [
+        "Build projects, improve your resume, apply consistently, and practice DSA.",
+        "Internships come easier when you can show real projects."
+      ]
+    },
+
+    {
+      "tag": "resume",
+      "patterns": [
+        "how to make resume",
+        "resume tips",
+        "improve resume",
+        "resume help",
+        "how to build cv",
+        "best resume format",
+        "resume for internship",
+        "resume for freshers",
+        "good resume tips",
+        "resume guidance"
+      ],
+      "responses": [
+        "Keep your resume one page and highlight projects + skills.",
+        "Add measurable achievements and strong projects."
+      ]
+    },
+
+    {
+      "tag": "motivation",
+      "patterns": [
+        "i feel demotivated",
+        "i am tired",
+        "how to stay consistent",
+        "i want motivation",
+        "i feel lazy",
+        "how to stay disciplined",
+        "i feel burned out",
+        "how to avoid procrastination",
+        "i don't feel like studying",
+        "motivate me"
+      ],
+      "responses": [
+        "Consistency beats motivation.",
+        "Focus on small daily wins.",
+        "Discipline matters more than motivation."
+      ]
+    },
+
+    {
+      "tag": "coding_help",
+      "patterns": [
+        "help me with coding",
+        "how to improve coding",
+        "learn dsa",
+        "competitive programming",
+        "coding roadmap",
+        "how to become better at coding",
+        "how to practice coding",
+        "coding interview prep",
+        "how to learn algorithms",
+        "improve problem solving"
+      ],
+      "responses": [
+        "Practice LeetCode/HackerRank regularly.",
+        "Master arrays, strings, recursion, trees, graphs, and DP."
+      ]
+    }
+
+  ]
+}

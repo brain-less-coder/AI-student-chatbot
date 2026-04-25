@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Student Assistant</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="chat-container">
+
+        <!-- Header -->
+        <div class="chat-header">
+            🤖 AI Student Assistant
+        </div>
+
+        <!-- Chat Messages Area -->
+        <div id="chatbox">
+            
+            <!-- Initial bot welcome message -->
+            <div class="bot-message">
+                <div>
+                    Hello! 👋 <br>
+                    Ask me about:
+                    <br><br>
+                    • Python roadmap  
+                    <br>
+                    • Machine Learning  
+                    <br>
+                    • Internship tips  
+                    <br>
+                    • Project ideas  
+                    <br>
+                    • Resume guidance  
+                    <br>
+                    • Coding help  
+                    <br>
+                    • Motivation
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <input 
+                type="text"
+                id="userInput"
+                placeholder="Type your message..."
+                autocomplete="off"
+            >
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Link JavaScript -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
