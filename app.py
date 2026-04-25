@@ -9,10 +9,11 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 
 # Download NLTK data
+# Download NLTK data
 nltk.download('punkt')
+nltk.download('punkt_tab')   # ADD THIS
 nltk.download('wordnet')
 nltk.download('omw-1.4')
-
 app = Flask(__name__)
 
 lemmatizer = WordNetLemmatizer()
